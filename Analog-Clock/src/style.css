@@ -1,0 +1,46 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  h1 {
+    text-align: center;
+  }
+  .container {
+    margin: auto;
+    width: 490px;
+    height: 500px;
+    background: url("clock.png") no-repeat;
+    background-size: 80%;
+    position: relative;
+
+  }
+
+  
+  #hour,
+  #min,
+  #sec {
+    position: absolute;
+    background: black;
+    border-radius: 5px 5px 0 0 ;
+    transform-origin: bottom;
+  }
+  
+  #hour {
+    height: 80px;
+    width: 10px;
+    top: 23%;
+    left: 39%;
+  }
+  #min {
+    height: 100px;
+    width: 5px;
+    top: 19.2%;
+    left: 39.3%;
+  }
+  #sec {
+    background-color: grey;
+    height: 130px;
+    width: 3px;
+    top: 13%;
+    left: 39.3%;
+  }
+  

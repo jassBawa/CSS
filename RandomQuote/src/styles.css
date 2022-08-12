@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    background-color: bisque;
+}
+
+.container{
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote{
+    font-size: 3em;
+    margin: 0;
+}
+#tilt{
+    font-size: 3em;
+    align-self: flex-end;
+    margin: 0;
+    margin-right: 40%;
+}
+#author{
+    font-size: 2em;
+    align-self: flex-end;
+    margin: 0;
+    margin-right: 20%;
+}
+
+.btnCont{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    color: whitesmoke;
+    background-color: black;
+    /* background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%); */
+    border-radius: 5px;    
+    cursor: pointer;
+
+}
